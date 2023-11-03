@@ -51,16 +51,16 @@ function NavBar() {
         <nav>
           <ul className="hidden md:flex">
             <li>
-              <NavLink href="/" title="Home" className="mr-4" />
+              <NavLink href="/" title="Home" className="mr-8" />
             </li>
             <li>
-              <NavLink href="/#overMij" title="Over mij" className="mr-4" />
+              <NavLink href="/#overMij" title="Over mij" className="mr-8" />
             </li>
             <li>
-              <NavLink href="/#skills" title="Skills" className="mr-4" />
+              <NavLink href="/#skills" title="Skills" className="mr-8" />
             </li>
             <li>
-              <NavLink href="/#projecten" title="Projecten" className="mr-4" />
+              <NavLink href="/#projecten" title="Projecten" className="mr-8" />
             </li>
             <li>
               <NavLink href="/#contact" title="Contact" />
@@ -71,6 +71,8 @@ function NavBar() {
           </div>
         </nav>
       </div>
+      
+      {/* navigatiebalk klein scherm */}
       <div
         className={
           nav ? "md:hidden fixed left-0 top-0 w-full h-screen bg-black/70" : ""
