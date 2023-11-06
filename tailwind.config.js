@@ -12,6 +12,9 @@ module.exports = {
       colors: {
         // name: "hash code",
         light: '#ecf0f3',
+        darkTrans: 'rgba(0,0,0,.4)',
+        dark: '#242526',
+        dark2: '#18191A'
       }
     },
   },
