@@ -6,6 +6,9 @@ module.exports = {
   content: ["./src/**/*.{js,ts,jsx,tsx,mdx}"],
   theme: {
     extend: {
+      textShadow: {
+        default: '2px 2px 2px rgba(0, 0, 0, 0.25)',
+      },
       fontFamily: {
         mont: ["var(--font-mont)", ...fontFamily.sans],
       },
