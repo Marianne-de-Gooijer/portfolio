@@ -53,7 +53,7 @@ function NavBar() {
         shadow ? " shadow-xl bg-dark" : " bg-darkTrans text-white"
       }`}
     >
-      <div className="max-w-screen-2xl m-auto flex justify-between items-center w-full h-full px-10 2xl:px-16">
+      <div className="container mx-auto flex justify-between items-center w-full h-full px-5">
         <Link href="/">
           <Image src={logo} alt="/" className="w-[65px] h-auto" />
         </Link>
@@ -63,7 +63,7 @@ function NavBar() {
               <NavLink href="/" title="Home" className="mr-8" />
             </li>
             <li>
-              <NavLink href="/#overMij" title="Over mij" className="mr-8" />
+              <NavLink href="/#about" title="Over mij" className="mr-8" />
             </li>
             <li>
               <NavLink href="/#skills" title="Skills" className="mr-8" />

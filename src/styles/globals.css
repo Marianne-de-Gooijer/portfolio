@@ -5,3 +5,20 @@
 html {
     scroll-behavior: smooth;
 }
+
+/* Stijlen voor de scrollbalk */
+::-webkit-scrollbar {
+  width: 10px; /* Breedte van de scrollbalk */
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Achtergrondkleur van de scrollbalkbaan */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888; /* Kleur van de scrollbalk zelf */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Kleur van de scrollbalk bij hover */
+}
