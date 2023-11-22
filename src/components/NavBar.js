@@ -19,22 +19,6 @@ function NavBar() {
     setNav(!nav);
   }
 
-  function NavLink({ href, title, className = "" }) {
-    const router = useRouter();
-    return (
-      <Link href={href} className={`${className} relative group`}>
-        {title}
-        <span
-          className={`h-[1px] inline-block bg-white absolute left-0 -bottom-0.5 group-hover:w-full transition-[width] ease duration-300 ${
-            router.asPath === href ? "w-full" : "w-0"
-          }`}
-        >
-          &nbsp;
-        </span>
-      </Link>
-    );
-  }
-
   return (
     <header
       className="fixed w-full h-20 z-[100] font-medium bg-darkTrans text-white 
@@ -47,19 +31,27 @@ function NavBar() {
         <nav>
           <ul className="hidden md:flex">
             <li>
-              <NavLink href="/" title="Home" className="mr-8" />
+              <Link href="/" className="mr-8 hover:font-bold">
+                Home
+              </Link>
             </li>
             <li>
-              <NavLink href="/#about" title="Over mij" className="mr-8" />
+              <Link href="/#about" className="mr-8 hover:font-bold">
+                Over mij
+              </Link>
             </li>
             <li>
-              <NavLink href="/#skills" title="Skills" className="mr-8" />
+              <Link href="/#skills" className="mr-8 hover:font-bold">
+                Skills
+              </Link>
             </li>
             <li>
-              <NavLink href="/#projecten" title="Projecten" className="mr-8" />
+              <Link href="/#projects" className="mr-8 hover:font-bold">
+                Projecten
+              </Link>
             </li>
             <li>
-              <NavLink href="/#contact" title="Contact" />
+              <Link href="/#contact" className="hover:font-bold">Contact</Link>
             </li>
           </ul>
           <div onClick={handleNav} className="md:hidden cursor-pointer">
@@ -95,19 +87,19 @@ function NavBar() {
           <nav className="py-8 flex flex-col">
             <ul>
               <li className="py-4">
-                <NavLink href="/" title="Home" />
+                <Link href="/">Home</Link>
               </li>
               <li className="py-4">
-                <NavLink href="/#overMij" title="Over mij" />
+                <Link href="/#about">Over mij</Link>
               </li>
               <li className="py-4">
-                <NavLink href="/#skills" title="Skills" />
+                <Link href="/#skills">Skills</Link>
               </li>
               <li className="py-4">
-                <NavLink href="/#projecten" title="Projecten" />
+                <Link href="/#projects">Projecten</Link>
               </li>
               <li className="py-4">
-                <NavLink href="/#contact" title="Contact" />
+                <Link href="/#contact">Contact</Link>
               </li>
             </ul>
             <div className="pt-20">

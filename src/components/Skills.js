@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { SiHtml5, SiCss3, SiJavascript, SiReact, SiTailwindcss, SiGithub, SiPhp, SiWordpress, SiMysql } from 'react-icons/si';
+import { SiHtml5, SiCss3, SiJavascript, SiReact, SiTailwindcss, SiGithub, SiLaravel, SiWordpress, SiMysql } from 'react-icons/si';
 
 const skills = [
   { name: 'HTML', Icon: SiHtml5 },
@@ -8,7 +8,7 @@ const skills = [
   { name: 'React', Icon: SiReact },
   { name: 'Tailwind', Icon: SiTailwindcss },
   { name: 'Github', Icon: SiGithub },
-  { name: 'Php', Icon: SiPhp },
+  { name: 'Laravel', Icon: SiLaravel },
   { name: 'Wordpress', Icon: SiWordpress },
   { name: 'My sql', Icon: SiMysql },
 ];

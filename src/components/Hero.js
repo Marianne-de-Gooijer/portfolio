@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { FaArrowDown } from "react-icons/fa";
 
 import styles from "@/styles/Hero.module.css";
 import heroImage from "../../public/images/hero-programmer.webp";
@@ -24,6 +25,9 @@ function Hero() {
               - Front-end web developer
             </p>
           </div>
+        </div>
+        <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 text-3xl text-white ">
+          <FaArrowDown className={styles.bounce} />
         </div>
       </section>
     </>
