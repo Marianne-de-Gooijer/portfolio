@@ -13,8 +13,8 @@ module.exports = {
         // name: "hash code",
         light: '#fafaf9',
         darkTrans: 'rgba(0,0,0,.4)',
-        sand: '#a8a29e',
-        darkSand: '#78716c',
+        sand: '#78716c',
+        darkSand: '#57534e',
       }
     },
   },
