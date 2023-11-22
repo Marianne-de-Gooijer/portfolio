@@ -43,7 +43,7 @@ function About() {
       <div className="flex flex-wrap px-5">
         <div className="md:w-1/2 w-full md:pl-10">
           <p className="leading-relaxed text-md md:text-lg">
-            Hier komt meer informatie over mijn hobby's.
+            Hier komt meer informatie over mijn hobby's en over wat ik in mijn vrije tijd vooral doe.
           </p>
           <br />
           <p className="leading-relaxed text-md md:text-lg">
