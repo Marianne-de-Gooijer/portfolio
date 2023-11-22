@@ -6,9 +6,6 @@ module.exports = {
   content: ["./src/**/*.{js,ts,jsx,tsx,mdx}"],
   theme: {
     extend: {
-      textShadow: {
-        default: '2px 2px 2px rgba(0, 0, 0, 0.25)',
-      },
       fontFamily: {
         mont: ["var(--font-mont)", ...fontFamily.sans],
       },
@@ -16,8 +13,8 @@ module.exports = {
         // name: "hash code",
         light: '#ecf0f3',
         darkTrans: 'rgba(0,0,0,.4)',
-        dark: '#242526',
-        dark2: '#18191A'
+        sand: '#a8a29e',
+        darkSand: '#78716c',
       }
     },
   },

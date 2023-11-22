@@ -17,7 +17,7 @@ function Hero() {
           <div className="absolute inset-0 bg-black opacity-50"></div>
           {/* Optional overlay */}
           <div className="z-10 px-5">
-            <div className="text-white text-4xl sm:text-5xl md:text-6xl text-shadow">
+            <div className="text-white text-4xl sm:text-5xl md:text-6xl">
               <p className={styles.textShadow}>Marianne de Gooijer</p>
             </div>
             <p className="text-white text-xl md:text-3xl mt-4">

@@ -1,6 +1,9 @@
 import About from "@/components/About";
+import Contact from "@/components/Contact";
 import Hero from "@/components/Hero";
 import NavBar from "@/components/NavBar";
+import Projects from "@/components/Projects";
+import Skills from "@/components/Skills";
 import "@/styles/globals.css";
 import { Montserrat } from "next/font/google";
 import Head from "next/head";
@@ -23,6 +26,9 @@ export default function App({ Component, pageProps }) {
         <NavBar />
         <Hero />
         <About />
+        <Skills />
+        <Projects />
+        <Contact />
         {/* <Component {...pageProps} /> */}
       </main>
     </>

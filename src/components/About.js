@@ -5,7 +5,7 @@ import aboutImg2 from "../../public/images/about2.webp";
 
 function About() {
   return (
-    <section id="about" className="py-12 md:py-24 container mx-auto ">
+    <section id="about" className="py-12 md:py-24 container mx-auto">
       <p className="text-2xl md:text-4xl font-medium text-center mb-12 md:mb-16">
         Over mij
       </p>
