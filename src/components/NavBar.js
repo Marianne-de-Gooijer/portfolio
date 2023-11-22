@@ -105,22 +105,22 @@ function NavBar() {
               <p className="uppercase tracking-widest text-pink-600">Contact</p>
               <div className="flex items-center justify-between my-4 w-full">
                 <div className="text-darkSand rounded-full shadow-lg shadow-gray-700 bg-white p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <Link href="https://www.linkedin.com/in/marianne-de-gooijer/">
+                  <Link href="https://www.linkedin.com/in/marianne-de-gooijer/" aria-label="Mijn LinkedIn account">
                     <FaLinkedinIn />
                   </Link>
                 </div>
                 <div className="text-darkSand rounded-full shadow-lg shadow-gray-700 bg-white p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <Link href="https://github.com/Marianne-de-Gooijer">
+                  <Link href="https://github.com/Marianne-de-Gooijer" aria-label="Mijn GitHub account">
                     <FaGithub />
                   </Link>
                 </div>
                 <div className="text-darkSand rounded-full shadow-lg shadow-gray-700 bg-white p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <Link href="mailto: mariannedegooijer@gmail.com">
+                  <Link href="mailto: mariannedegooijer@gmail.com" aria-label="Mijn e-mailadres">
                     <AiOutlineMail />
                   </Link>
                 </div>
                 <div className="text-darkSand rounded-full shadow-lg shadow-gray-700 bg-white p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <Link href="tel: +31637338187">
+                  <Link href="tel: +31637338187" aria-label="Mijn telefoonnummer">
                     <AiOutlinePhone />
                   </Link>
                 </div>
