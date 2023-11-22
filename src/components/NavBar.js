@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { useRouter } from "next/router";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import {
   AiOutlineClose,
   AiOutlineMenu,
@@ -10,7 +9,7 @@ import {
 } from "react-icons/ai";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 
-import logo from "../../public/images/logo.png";
+import logo from "../../public/images/logo.webp";
 
 function NavBar() {
   const [nav, setNav] = useState(false);
