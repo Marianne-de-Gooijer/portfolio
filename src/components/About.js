@@ -19,7 +19,7 @@ function About() {
             />
           </div>
         </div>
-        <div className="md:w-1/2 w-full md:pl-10 ">
+        <div className="md:w-1/2 w-full md:pl-10">
           <p className="leading-relaxed text-md md:text-lg">
             Hey, ik ben Marianne de Gooijer. Tijdens de opleiding software
             development die ik op het Technova College in Ede heb gevolgd heb ik
@@ -43,7 +43,7 @@ function About() {
       <div className="flex flex-wrap px-5">
         <div className="md:w-1/2 w-full md:pl-10">
           <p className="leading-relaxed text-md md:text-lg">
-            Hier komt meer informatie over mijn hobby's en over wat ik in mijn vrije tijd vooral doe.
+            Hier komt meer informatie over mijn hobby&apos;s en over wat ik in mijn vrije tijd vooral doe.
           </p>
           <br />
           <p className="leading-relaxed text-md md:text-lg">
