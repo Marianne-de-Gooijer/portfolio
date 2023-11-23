@@ -1,30 +1,58 @@
 import ProjectItem from "./ProjectItem";
+import styles from "@/styles/Hero.module.css";
 
 import img1 from "../../public/images/placeholder.webp";
 
 function Projects() {
   const projects = [
-    { title: "Project 1", imageUrl: img1, projectUrl: "#", description: 'Korte beschrijving van Project 1' },
-    { title: "Project 1", imageUrl: img1, projectUrl: "#", description: 'Korte beschrijving van Project 1' },
-    { title: "Project 1", imageUrl: img1, projectUrl: "#", description: 'Korte beschrijving van Project 1' },
-    { title: "Project 1", imageUrl: img1, projectUrl: "#", description: 'Korte beschrijving van Project 1' },
-    { title: "Project 1", imageUrl: img1, projectUrl: "#", description: 'Korte beschrijving van Project 1' },
-    { title: "Project 1", imageUrl: img1, projectUrl: "#", description: 'Korte beschrijving van Project 1' },
+    {
+      title: "Project 1",
+      imageUrl: img1,
+      projectUrl: "#",
+      description: "Korte beschrijving van Project 1",
+      date: "Juli 2023",
+    },
+    {
+      title: "Project 1",
+      imageUrl: img1,
+      projectUrl: "#",
+      description: "Korte beschrijving van Project 1",
+      date: "Juli 2023",
+    },
+    {
+      title: "Project 1",
+      imageUrl: img1,
+      projectUrl: "#",
+      description: "Korte beschrijving van Project 1",
+      date: "Juli 2023",
+    },
+    {
+      title: "Project 1",
+      imageUrl: img1,
+      projectUrl: "#",
+      description: "Korte beschrijving van Project 1",
+      date: "Juli 2023",
+    },
     // Voeg meer projecten toe...
   ];
   return (
     <section id="projects" className="py-12 md:py-24 container mx-auto px-5">
-      <p className="text-2xl md:text-4xl font-medium text-center mb-12 md:mb-16">
+      {/* Als de projecten erin staan moet de styling van de <p> tag hieronder iets gewijzigd worden: md:mb-[114px] */}
+      <p className="text-2xl md:text-4xl font-medium text-center mb-12 md:mb-[64px]">
         Projecten
       </p>
-      <p className="leading-relaxed text-md md:text-lg text-center max-w-2xl mx-auto">
-        Mijn meest recente projecten van stage mag ik niet delen. Ik heb nog
-        projecten van school, maar die laten niet zien wat ik op dit moment kan
-        dus is dit onderdeel tijdelijk leeg.
+      <p className="leading-relaxed text-md md:text-lg text-center max-w-3xl mx-auto">
+        Het meest indrukwekkende project dat ik momenteel kan presenteren, is
+        mijn portfolio, dat toevallig deze website is. Helaas mag ik mijn meest
+        recente projecten van mijn stage niet delen. Hoewel ik nog projecten van
+        school heb, tonen deze niet volledig mijn huidige vaardigheden, dus is
+        dit gedeelte tijdelijk leeg.
       </p>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 hidden">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 projecten hidden">
         {projects.map((project, index) => (
-          <ProjectItem key={index} {...project} />
+          <div className={styles.project} key={index}>
+            <ProjectItem {...project} />
+          </div>
         ))}
       </div>
     </section>
