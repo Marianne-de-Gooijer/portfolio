@@ -42,11 +42,10 @@ function Projects() {
         Projecten
       </p>
       <p className="leading-relaxed text-md md:text-lg text-center max-w-3xl mx-auto">
-        Het meest indrukwekkende project dat ik momenteel kan presenteren, is
-        mijn portfolio, dat toevallig deze website is. Helaas mag ik mijn meest
-        recente projecten van mijn stage niet delen. Hoewel ik nog projecten van
-        school heb, tonen deze niet volledig mijn huidige vaardigheden, dus is
-        dit gedeelte tijdelijk leeg.
+        Het beste project dat ik op dit moment kan laten zien, is mijn
+        portfolio. Helaas mag ik mijn meest recente projecten van mijn stage
+        niet delen. Hoewel ik nog projecten van school heb, tonen deze niet
+        volledig mijn huidige vaardigheden, dus is dit gedeelte tijdelijk leeg.
       </p>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 projecten hidden">
         {projects.map((project, index) => (
