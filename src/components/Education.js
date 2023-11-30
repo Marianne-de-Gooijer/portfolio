@@ -38,7 +38,7 @@ function Details({ company, position, time }) {
   return (
     <li
       ref={ref}
-      className="w-[80%] ml-auto my-8 first:mt-0 last:mb-0 flex flex-col justify-between"
+      className="md:w-[80%] w-[70%] ml-auto my-8 first:mt-0 last:mb-0 flex flex-col justify-between"
     >
       <LiIcon reference={ref} />
       <motion.div
