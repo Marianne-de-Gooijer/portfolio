@@ -36,7 +36,7 @@ function Projects() {
     // Voeg meer projecten toe...
   ];
   return (
-    <section id="projects" className="py-12 md:py-24 container mx-auto px-5">
+    <section id="projects" className="py-20 md:py-32 container mx-auto px-5">
       {/* Als de projecten erin staan moet de styling van de <p> tag hieronder iets gewijzigd worden: md:mb-[114px] */}
       <p className="text-2xl md:text-4xl font-medium text-center mb-12 md:mb-[64px]">
         Projecten

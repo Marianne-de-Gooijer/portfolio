@@ -1,16 +1,18 @@
 import { useState } from 'react';
-import { SiHtml5, SiCss3, SiJavascript, SiReact, SiTailwindcss, SiGithub, SiLaravel, SiWordpress, SiMysql } from 'react-icons/si';
+import { SiHtml5, SiCss3, SiJavascript, SiReact, SiNextdotjs, SiTailwindcss, SiGithub, SiLaravel, SiLivewire, SiWordpress, SiBootstrap } from 'react-icons/si';
 
 const skills = [
   { name: 'HTML', Icon: SiHtml5 },
   { name: 'CSS', Icon: SiCss3 },
   { name: 'JavaScript', Icon: SiJavascript },
   { name: 'React', Icon: SiReact },
+  { name: 'Next.js', Icon: SiNextdotjs },
   { name: 'Tailwind', Icon: SiTailwindcss },
+  { name: 'Bootstrap', Icon: SiBootstrap },
   { name: 'Github', Icon: SiGithub },
   { name: 'Laravel', Icon: SiLaravel },
+  { name: 'Livewire', Icon: SiLivewire },
   { name: 'Wordpress', Icon: SiWordpress },
-  { name: 'My sql', Icon: SiMysql },
 ];
 
 const SkillCard = ({ name, Icon }) => {
@@ -32,7 +34,7 @@ const SkillCard = ({ name, Icon }) => {
 
 function Skills() {
   return (
-    <section id="skills" className="py-12 md:py-24 bg-sand">
+    <section id="skills" className="py-20 md:py-32 bg-sand">
       <div className="container mx-auto text-white px-5">
         <p className="text-2xl md:text-4xl font-medium text-center mb-12 md:mb-16">
           Skills

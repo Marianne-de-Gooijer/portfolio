@@ -62,7 +62,7 @@ function Experience() {
   });
 
   return (
-    <section id="experience" className="py-12 md:py-24 bg-sand">
+    <section id="experience" className="py-20 md:py-32 bg-sand">
       <div className="container mx-auto text-white px-5 max-w-4xl">
         <p className="text-2xl md:text-4xl font-medium text-center mb-12 md:mb-16">
           Ervaringen
