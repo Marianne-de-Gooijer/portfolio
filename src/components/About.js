@@ -21,7 +21,7 @@ function About() {
           </div>
         </div>
         <div className="md:w-1/2 w-full md:pl-10">
-          <p className="leading-relaxed text-md md:text-lg">
+          <p className="leading-relaxed text-base md:text-lg">
             Hey, ik ben Marianne de Gooijer. Tijdens de opleiding software
             development die ik op het Technova College in Ede heb gevolgd heb ik
             veel geleerd over programmeren. Ik ben daar ook afgestudeerd als
@@ -29,11 +29,11 @@ function About() {
             devlopment.
           </p>
           <br />
-          <p className="leading-relaxed text-md md:text-lg">
+          <p className="leading-relaxed text-base md:text-lg">
             Ik wil zelf graag beter worden met React.js en Next.js.
           </p>
           <br />
-          <p className="leading-relaxed text-md md:text-lg">
+          <p className="leading-relaxed text-base md:text-lg">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -44,18 +44,18 @@ function About() {
       </div>
       <div className="flex flex-wrap px-5 pt-14 md:pt-0">
         <div className="md:w-1/2 w-full md:pl-10">
-          <p className="leading-relaxed text-md md:text-lg">
+          <p className="leading-relaxed text-base md:text-lg">
             Hier komt meer informatie over mijn hobby&apos;s en over wat ik in mijn vrije tijd vooral doe.
           </p>
           <br />
-          <p className="leading-relaxed text-md md:text-lg">
+          <p className="leading-relaxed text-base md:text-lg">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
             aliquip ex ea commodo consequat.
           </p>
           <br />
-          <p className="leading-relaxed text-md md:text-lg">
+          <p className="leading-relaxed text-base md:text-lg">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut

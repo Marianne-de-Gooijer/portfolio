@@ -16,7 +16,7 @@ function ProjectItem({ title, imageUrl, projectUrl, description, date }) {
         <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-50 transition-opacity duration-300 flex items-center justify-center p-4">
           <div className="text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
             <h3 className="text-xl font-semibold mb-5">{title}</h3>
-            <div className="flex leading-relaxed text-md md:text-lg">
+            <div className="flex leading-relaxed text-base md:text-lg">
               <MdOutlineDateRange className="self-center" />
               <p className="ml-2">{date}</p>
             </div>

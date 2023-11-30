@@ -50,6 +50,11 @@ function NavBar() {
               </Link>
             </li>
             <li>
+              <Link href="/#experience" className="mr-8 hover:font-bold">
+                Ervaringen
+              </Link>
+            </li>
+            <li>
               <Link href="/#contact" className="hover:font-bold">
                 Contact
               </Link>
@@ -98,6 +103,9 @@ function NavBar() {
               </li>
               <li className="py-4">
                 <Link href="/#projects">Projecten</Link>
+              </li>
+              <li className="py-4">
+                <Link href="/#experience">Ervaringen</Link>
               </li>
               <li className="py-4">
                 <Link href="/#contact">Contact</Link>

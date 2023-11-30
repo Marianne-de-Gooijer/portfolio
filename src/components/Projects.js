@@ -41,7 +41,7 @@ function Projects() {
       <p className="text-2xl md:text-4xl font-medium text-center mb-12 md:mb-[64px]">
         Projecten
       </p>
-      <p className="leading-relaxed text-md md:text-lg text-center max-w-3xl mx-auto">
+      <p className="leading-relaxed text-base md:text-lg text-center max-w-3xl mx-auto">
         Het beste project dat ik op dit moment kan laten zien, is mijn
         portfolio. Helaas mag ik mijn meest recente projecten van mijn stage
         niet delen. Hoewel ik nog projecten van school heb, tonen deze niet
