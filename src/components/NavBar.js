@@ -93,22 +93,22 @@ function NavBar() {
           <nav className="py-8 flex flex-col">
             <ul>
               <li className="py-4">
-                <Link href="/">Home</Link>
+                <Link onClick={handleNav} href="/">Home</Link>
               </li>
               <li className="py-4">
-                <Link href="/#about">Over mij</Link>
+                <Link onClick={handleNav} href="/#about">Over mij</Link>
               </li>
               <li className="py-4">
-                <Link href="/#skills">Skills</Link>
+                <Link onClick={handleNav} href="/#skills">Skills</Link>
               </li>
               <li className="py-4">
-                <Link href="/#projects">Projecten</Link>
+                <Link onClick={handleNav} href="/#projects">Projecten</Link>
               </li>
               <li className="py-4">
-                <Link href="/#experience">Ervaringen</Link>
+                <Link onClick={handleNav} href="/#experience">Ervaringen</Link>
               </li>
               <li className="py-4">
-                <Link href="/#contact">Contact</Link>
+                <Link onClick={handleNav} href="/#contact">Contact</Link>
               </li>
             </ul>
             <div className="pt-20">
