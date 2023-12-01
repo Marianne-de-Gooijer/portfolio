@@ -24,7 +24,7 @@ function About() {
             <p className="leading-relaxed text-base md:text-lg">
               Hey, ik ben Marianne de Gooijer. Ik heb mijn opleiding software
               development gevolgd aan het Technova College in Ede, waar ik veel
-              kennis heb opgedaan over programmeren. Met trots ben ik
+              kennis heb opgedaan over programmeren. Met trots ben ik in 2023
               afgestudeerd als software developer. Mijn passie ligt met name in
               front-end web development.
             </p>
@@ -55,7 +55,7 @@ function About() {
             combineren. Voor elke website zijn ook foto&apos;s nodig, en ik heb
             de wens om deze zelf te kunnen cre&euml;ren. Op deze manier kan ik
             niet alleen een aantrekkelijke front-end ontwikkelen die aan de
-            wensen van de klant voldoet, maar ook voorzien aan mooie foto&apos;s
+            wensen van de klant voldoet, maar ook voorzien van mooie foto&apos;s
             die de klant graag wilt.
           </p>
         </div>
