@@ -25,7 +25,7 @@ export default function App({ Component, pageProps }) {
           name="description"
           content="Portfolio Marianne de Gooijer - Front-end web developer uit Nederland | Ik werk graag aan de front-end van websites met bijvoorbeeld React. Neem een kijkje op mijn website voor meer informatie!"
         />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/images/logo.webp" />
       </Head>
       <main
         className={`${montserrat.variable} font-mont bg-light w-full min-h-screen`}
